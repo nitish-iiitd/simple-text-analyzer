@@ -7,8 +7,8 @@ Just create a get request to the server with your text as parameter and get a JS
 import requests
 input_text = "This is my sentence"
 response = requests.get('http://simple-text-analyzer.appspot.com/analyze?text='+input_text)
-print response.status_code
-print response.content
+print "Status : ",response.status_code
+print "Content : ",response.content
 ```
 
 Output
